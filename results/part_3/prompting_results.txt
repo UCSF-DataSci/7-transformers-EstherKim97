@@ -1,0 +1,80 @@
+# Prompt Engineering Results
+
+## Question: What foods should be avoided by patients with gout?
+
+### Zero-shot response:
+[{'summary_text': 'Question: What foods should be avoided by patients with gout? Answer: Anything with a high salt content. Anything with high fat content. Everything with a low sugar content.Anything with a lot of fat. Anything high in sugar. Anything that is high in fat and low in protein.'}]
+
+### One-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. What foods should be avoided by patients with gout? Gout is a chronic disease that affects people of all ages. Gout can be treated with medication and/or lifestyle changes.'}]
+
+### Few-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Gout is diagnosed through physical examination, medical history, blood tests for uric acid levels, and joint fluid analysis to look for urate crystals.'}]
+
+--------------------------------------------------
+
+## Question: What medications are commonly prescribed for gout?
+
+### Zero-shot response:
+[{'summary_text': 'Question: What medications are commonly prescribed for gout? Answer: There are a number of medications that can be used to treat gout. For more information on gout, go to: http://www.gout.org/gout-treatment-medications.'}]
+
+### One-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. What medications are commonly prescribed for gout? Share your story with CNN iReport. Share your photos and videos of your gout journey with CNN.'}]
+
+### Few-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Gout is diagnosed through physical examination, medical history, blood tests for uric acid levels, and joint fluid analysis to look for urate crystals.'}]
+
+--------------------------------------------------
+
+## Question: How can gout flares be prevented?
+
+### Zero-shot response:
+[{'summary_text': 'How can gout flares be prevented? What are the best ways to prevent them? How do we prevent them in the first place? What can we do to prevent gout flare-ups in the future? How can we prevent these flares in the present day? What do we do now?'}]
+
+### One-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. How can gout flares be prevented? Read our guide on how to prevent gout flare-ups. Follow us on Facebook and Twitter for all the latest gout news.'}]
+
+### Few-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Gout is diagnosed through physical examination, medical history, blood tests for uric acid levels, and joint fluid analysis to look for urate crystals.'}]
+
+--------------------------------------------------
+
+## Question: Is gout related to diet?
+
+### Zero-shot response:
+[{'summary_text': 'Question: Is gout related to diet? Answer: Yes. Gout is a disease of the body that affects the bones and joints. It can also be caused by a lack of exercise or a bad diet. For more information on gout, visit gout.org.'}]
+
+### One-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Is gout related to diet? Gout is a disease of the body, not of the mind. Gout can be treated with medication and/or lifestyle changes.'}]
+
+### Few-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Gout is diagnosed through physical examination, medical history, blood tests for uric acid levels, and joint fluid analysis to look for urate crystals.'}]
+
+--------------------------------------------------
+
+## Question: Can gout be cured permanently?
+
+### Zero-shot response:
+[{'summary_text': "Question: Can gout be cured permanently? answer: Yes. Question: Is it possible to cure gout permanently? Answer: Yes, but it's not possible to completely cure it. Questions: Is there a cure for gout? Yes, there is a cure. Are you sure?"}]
+
+### One-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Can gout be cured permanently? Yes, but only if the gout is treated regularly. Gout is a chronic disease that affects people of all ages.'}]
+
+### Few-shot response:
+[{'summary_text': 'Gout symptoms include sudden severe pain, swelling, redness, and tenderness in joints, often the big toe. Gout is diagnosed through physical examination, medical history, blood tests for uric acid levels, and joint fluid analysis to look for urate crystals.'}]
+
+--------------------------------------------------
+
+## Scores
+
+```
+question,zero_shot,one_shot,few_shot
+what_foods_should_be_avoided_by_patients_with_gout,0.00,0.00,0.00
+what_medications_are_commonly_prescribed_for_gout,0.00,0.00,0.00
+how_can_gout_flares_be_prevented,0.00,0.00,0.00
+is_gout_related_to_diet,0.17,0.00,0.00
+can_gout_be_cured_permanently,0.00,0.20,0.00
+
+average,0.03,0.04,0.00
+best_method,one_shot
+```
